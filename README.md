@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Currency Converter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A universal currency converter is a software application or website that provides for 
+the easy conversion of currency values based on present-day exchange rates. 
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+    - [GIF](#GIF)
+    - [Description](#Description)
+- [Run](#Run)
+- [Development](#my-process)
+- [Features](#features)
+- [Built with](#built-with)
+- [Author](#authors)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### GIF
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**[Currency_Converter GIF](https://drive.google.com/file/d/18tLzaWxhSX7rqcNBsa-lXfEJR1XmxxoQ/view?usp=sharing)**
 
-### `npm test`
+### Description
+In this Project Client Can :
+-is a software that converts quantity or value of one currency into the relative quantities 
+or values of other currencies to check its corresponding value .
+- Choose a currency with another currency and convert the value to it .  
+- Get a value of currency and convert amount to it .
+- Get nine the most months currency at this time .
+- Get the chart to view the last 14 days of the currency .
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## To run the project
+1. Clone the project -> git clone + link
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ``` https://github.com/sh-m45/AngularTest.git ```
+2. npm install
+3. in cmd -> cd currency-converter
+4. code .
+5. npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+   
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Client Side Features:
+    - Universal currency converters are mostly free when finding online, and they are particularly useful for forex traders and travellers trying to find out how much of their own home currency can extend or contract once visiting a foreign country.
+ 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Built with
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **[React](https://reactjs.org/)**
+- Material design **[HTML5](https://www.tutorialspoint.com/html5/index.htm)**
+- Material design **[CSS3](https://www.tutorialspoint.com/css/css3_tutorial.htm)**
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Code Splitting
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* LinkedIn - [Shrouk Mamdoh](https://www.linkedin.com/in/shrouk-mamdoh-36510720a/)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
