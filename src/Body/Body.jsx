@@ -21,7 +21,7 @@ export default function Body() {
     const [output, setOutput] = useState(0);
     const location = useLocation();
     const showCards = location.pathname.indexOf("Details") === -1;
-    // Calling the api whenever the dependency changes
+    
     useEffect(() => {
         Axios.get(`https://v6.exchangerate-api.com/v6/c3c4578627e2aaf7398a9629/latest/${from}`)
             .then((res) => {
@@ -30,15 +30,14 @@ export default function Body() {
 
     }, [from]);
 
-    // Calling the convert function whenever
-    // a user switches the currency
+    
     useEffect(() => {
         setOptions(Object.keys(info));
         convert();
 
     }, [info])
 
-    // Function to convert the currency
+    
     function convert() {
         var rate = info[to];
         setOutput(input * rate);
@@ -46,7 +45,7 @@ export default function Body() {
 
     }
 
-    // Function to switch between two currency
+    
     function flip() {
         var temp = from;
         setFrom(to);
@@ -110,7 +109,7 @@ export default function Body() {
                         </div>
                         <div className=" w-50 d-flex justify-content-center">
                             <input className={style.displayConvertPrice} value={output.toFixed(2) === 'NaN' ? 'XX.XX' : output.toFixed(2) + " " + to} />
-                            {/* <button className={style.moreDetailsBtn}>More Details</button> */}
+                            
                         </div>
                     </div>
                 </div>

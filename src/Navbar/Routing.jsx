@@ -15,10 +15,9 @@ export default function Routing(props) {
       {/* <Navbar  />  */}
             <Routes >
                 <Route path="/" exact element={ <HeaderHome />} />
-                
                 <Route path="/home" element={<HeaderHome />} />
                 <Route path="/Details" element={<HeaderDetails from={From} />} />
-                {/* <Route path="/Detailss" exact element={ <ChartComponent from={From} to={props.to} /> } /> */}
+                
                 
             </Routes>
             
