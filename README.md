@@ -9,7 +9,6 @@ the easy conversion of currency values based on present-day exchange rates.
     - [GIF](#GIF)
     - [Description](#Description)
 - [Run](#Run)
-- [Development](#my-process)
 - [Features](#features)
 - [Built with](#built-with)
 - [Author](#authors)
