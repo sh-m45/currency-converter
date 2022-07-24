@@ -1,0 +1,30 @@
+.cardsParent {
+    box-sizing: border-box;
+    padding: 50px 0px ;
+    border: 1px solid #fff ;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.flexItem {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 30%;
+    margin: 10px;
+    background-color: #2f2525;
+    text-align: center;
+    border-radius: 3px ;
+    border: 1px solid #fff ;
+}
+
+@media (max-width: 800px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+}

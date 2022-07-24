@@ -1,10 +1,11 @@
 .NavbarBtn{
     background-color: rgba(0,0,0,0.0);
-    height: 50%;
+    /* height: 100%; */
     border-radius: 3px ;
     border: 1px solid white;
-    color: #fff;
+    color: #fff !important;
     padding: 3px 10px ;
+
 }
 .Navbar{
     background-color: #2f2525;
@@ -12,10 +13,14 @@
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    border: 3px white solid;
+    border: 1px white solid;
     padding: 20px;
 }
 .Logo{
     height: 50px;
     
+}
+.NavbarLink{
+    color: #fff !important;
+    text-decoration: none !important;
 }

@@ -1,11 +1,21 @@
 .parent{
     background-color:#2f2525 ;
     color:#fff;
-    border:3px solid #fff;
+    border:1px solid #fff;
 }
+
+.ConverterPanel{
+  padding: 50px 0 ;
+  position: sticky;
+  top: 0;
+  background-color: #2f2525 ;
+  border:1px solid #fff ;
+
+}
+
 .CurrencyExchanger{
     display: flex ;
-    padding: 20px 20px ;
+    padding: 15px 20px ;
     width: 100%;
  
     

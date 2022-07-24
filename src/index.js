@@ -7,13 +7,24 @@ import Navbar from './Navbar/Navbar';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 import Body from './Body/Body';
+import Cards from './Cards/Cards';
+import HeaderHome from './HeaderHome/HeaderHome';
+import HeaderDetails from './HeaderDetails/HeaderDetails';
+import Routing from './Navbar/Routing';
+import { BrowserRouter } from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar/>
-    <Body/>
-    <App />
+    
+    <BrowserRouter>
+      {/* <Navbar/> */}
+      
+      <Body/>   
+      
+      {/* <Cards /> */}
+      <App />
+      </BrowserRouter>
   </React.StrictMode>
 );
 
