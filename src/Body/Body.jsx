@@ -10,6 +10,7 @@ import ChartComponent from '../Chart/Chart';
 import Routing from '../Navbar/Routing';
 import Cards from '../Cards/Cards';
 import Joi from 'joi';
+import { useLocation } from 'react-router-dom';
 
 export default function Body() {
     const [info, setInfo] = useState([]);
@@ -18,7 +19,8 @@ export default function Body() {
     const [to, setTo] = useState("inr");
     const [options, setOptions] = useState([]);
     const [output, setOutput] = useState(0);
-
+    const location = useLocation();
+    const showCards = location.pathname.indexOf("Details") === -1;
     // Calling the api whenever the dependency changes
     useEffect(() => {
         Axios.get(`https://v6.exchangerate-api.com/v6/c3c4578627e2aaf7398a9629/latest/${from}`)
@@ -113,9 +115,11 @@ export default function Body() {
                     </div>
                 </div>
             </div>
+            {showCards? (
             <Cards popularData={options} />
+            ) : (
             <ChartComponent from={from} to={to} />
-
+            )}
 
         </div>
 
